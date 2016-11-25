@@ -20,4 +20,11 @@
 		"price": 99.99,
 		"description": "desc"
 	}
+	{
+		"productid": 4,
+		"header": "Trästol",
+		"image": "4.jpg",
+		"price": 9.99,
+		"description": "desc"
+	}
 }
