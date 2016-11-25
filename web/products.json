@@ -1,0 +1,16 @@
+"products": {
+	{
+		"productid": 1,
+		"header": "HD TV",
+		"image": "1.jpg",
+		"price": 199.99,
+		"description": "desc"
+	},
+	{
+		"productid": 2,
+		"header": "Kingston HyperX Cloud II",
+		"image": "2.jpg",
+		"price": 39.99,
+		"description": "desc"
+	}
+}
