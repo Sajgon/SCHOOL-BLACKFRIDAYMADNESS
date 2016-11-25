@@ -13,4 +13,11 @@
 		"price": 59.99,
 		"description": "desc"
 	}
+	{
+		"productid": 3,
+		"header": "Harman Kardon Onyx Studio 3",
+		"image": "3.jpg",
+		"price": 99.99,
+		"description": "desc"
+	}
 }
