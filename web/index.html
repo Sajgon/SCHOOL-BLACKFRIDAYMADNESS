@@ -1,0 +1,359 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Bootstrap Mockup Uppift 1</title>
+	
+	<meta charset="utf-8">
+	<meta name="author" content="Anton Johansson">
+	
+	<!-- jQuery v3.1.1-->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<!-- Custom JS --> 
+	<script src="main.js"></script>
+	
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css"></script>
+	
+	
+</head>
+<body>
+	
+	
+	<div class="container margintop">	
+		<div class="row">
+			<div class="col-sm-12 col-md-9">
+			
+				<div class="panel panel-default">
+					<div class="panel-heading header">
+						<nav class="navbar navbar-default">
+							<div class="container-fluid bg-success">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+							  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							  </button>
+							  <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Webshop</a>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							  <ul class="nav navbar-nav">
+								<li><a href="#">Kategorier <span class="sr-only">(current)</span></a></li>
+								<li><a href="#" class="contactUsBtn" data-toggle="modal" data-target="#contactusModal" data-whatever="@mdo">Kontakta oss</a></li>
+							  </ul>
+							  <form class="navbar-form navbar-left">
+								<div class="form-group">
+								  <input type="text" class="form-control" placeholder="sök vara...">
+								</div>
+								<button type="submit" class="btn btn-success">SÖK <span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+							  </form>
+							  <ul class="nav navbar-nav navbar-right">
+								<li><a href="#" class="loginModalBtn" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Logga in</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Registrera konto</a></li>
+							  </ul>
+							</div><!-- /.navbar-collapse -->
+							</div><!-- /.container-fluid -->
+						</nav>
+					</div>
+					<div class="panel-body bg-success">
+					
+						<div class="row">
+							<div class="col-sm-3 col-md-3 ">
+								<h3>Kategorier</h3>
+								<div class="btn-group-vertical" role="group" aria-label="...">
+								
+								 <div class="btn-group" role="group">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									  <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Kategori 1
+									  <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu">
+									  <li><a href="#">Vara 1</a></li>
+									  <li role="separator" class="divider"></li>
+									  <li><a href="#">Vara 2</a></li>
+									</ul>
+								  </div>
+								  
+								  <div class="btn-group" role="group">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									 <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> Kategori 2
+									  <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu">
+									  <li><a href="#">Vara 1</a></li>
+									  <li role="separator" class="divider"></li>
+									  <li><a href="#">Vara 2</a></li>
+									</ul>
+								  </div>
+								  <div class="btn-group" role="group">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									  <span class="glyphicon glyphicon-print" aria-hidden="true"></span> Kategori 3
+									  <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu">
+									  <li><a href="#">Vara 1</a></li>
+									  <li role="separator" class="divider"></li>
+									  <li><a href="#">Vara 2</a></li>
+									</ul>
+								  </div>
+								  <div class="btn-group" role="group">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									  <span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Kategori 4
+									  <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu">
+									  <li><a href="#">Vara 1</a></li>
+									  <li role="separator" class="divider"></li>
+									  <li><a href="#">Vara 2</a></li>
+									</ul>
+								  </div>
+								  <div class="btn-group" role="group">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									  <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Kategori 5
+									  <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu">
+									  <li><a href="#">Vara 1</a></li>
+									  <li role="separator" class="divider"></li>
+									  <li><a href="#">Vara 2</a></li>
+									</ul>
+								  </div>
+								  <div class="btn-group" role="group">
+									<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									  <span class="glyphicon glyphicon-tint" aria-hidden="true"></span> Kategori 6
+									  <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
+									  <li><a href="#">Produkt 1</a></li>
+									  <li role="separator" class="divider"></li>
+									  <li><a href="#">Produkt 2</a></li>
+									  <li role="separator" class="divider"></li>
+									  <li><a href="#">Produkt 3</a></li>
+									  <li role="separator" class="divider"></li>
+									  <li><a href="#">Produkt 4</a></li>
+									  <li role="separator" class="divider"></li>
+									  <li><a href="#">Produkt 5</a></li>
+									</ul>
+								  </div>
+								  
+								</div>
+							</div>
+							
+							<div class="col-sm-9 dividers">
+								<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								  <!-- Indicators -->
+								  <ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+								  </ol>
+
+								  <!-- Wrapper for slides -->
+								  <div class="carousel-inner" role="listbox">
+									<div class="item active">
+									  <img src="http://placehold.it/900x500" alt="PLACEHOLDER">
+									  <div class="carousel-caption">
+										NEWS THIS WEEK!
+									  </div>
+									</div>
+									<div class="item">
+									  <img src="http://placehold.it/900x500" alt="PLACEHOLDER">
+									  <div class="carousel-caption">
+										WEEKLY SALES
+									  </div>
+									</div>
+									<div class="item">
+									  <img src="http://placehold.it/900x500" alt="PLACEHOLDER">
+									  <div class="carousel-caption">
+										BLACK FRIDAY 25th Nov 2016!
+									  </div>
+									</div>
+								  </div>
+
+								  <!-- Controls -->
+								  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								  </a>
+								  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								  </a>
+								</div>
+							</div>
+							<div class="col-sm-9 col-sm-offset-3">
+								<div class="row">
+									<!-- page products -->
+									<div class="col-sm-12 col-md-6">
+										<div class="thumbnail">
+										  <img src="http://placehold.it/300x300" alt="product">
+										  <div class="caption">
+											<h3>Product 1</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											<p><a href="#" class="btn btn-primary" role="button">READ MORE</a> <a href="#" class="btn btn-default btn-buy" role="button" data-toggle="modal" data-target="#myModal">BUY NOW</a></p>
+										  </div>
+										</div>
+									</div>
+									<div class="col-sm-12 col-md-6">
+										<div class="thumbnail">
+										  <img src="http://placehold.it/300x300" alt="product">
+										  <div class="caption">
+											<h3>Product 1</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											<p><a href="#" class="btn btn-primary" role="button">READ MORE</a> <a href="#" class="btn btn-default btn-buy" role="button" data-toggle="modal" data-target="#myModal">BUY NOW</a></p>
+										  </div>
+										</div>
+									</div>
+									<div class="col-sm-12 col-md-6">
+										<div class="thumbnail">
+										  <img src="http://placehold.it/300x300" alt="product">
+										  <div class="caption">
+											<h3>Product 1</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											<p><a href="#" class="btn btn-primary" role="button">READ MORE</a> <a href="#" class="btn btn-default btn-buy" role="button" data-toggle="modal" data-target="#myModal">BUY NOW</a></p>
+										  </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- end panel body -->
+					
+					<div class="panel-footer">
+						Copyright @ Webshop COMPANY NAME - <a href="#">KATEGORIER</a> - <a href="#">OM OSS</a> - <a href="#" class="contactUsBtn" data-toggle="modal" data-target="#contactusModal" data-whatever="@mdo">KONTAKTA OSS</a> - <a href="#">RETURER</a>
+					</div>
+				</div>
+				
+				<!-- Login Modal -->
+				<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+				  <div class="modal-dialog" role="document">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="exampleModalLabel">Login Form</h4>
+					  </div>
+					  <div class="modal-body">
+						<form>
+						  <div class="form-group">
+							<label for="recipient-name" class="control-label">* Your username/Mailaddress:</label>
+							<input type="text" class="form-control" id="recipient-name">
+						  </div>
+						  <div class="form-group">
+							<label for="message-text" class="control-label">* Password:</label>
+							<input type="text" class="form-control" id="message-text">
+						  </div>
+						  <p>* Required fields</p>
+						</form>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Login</button>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				
+				<!-- contactUsBtn Modal-->
+				<div class="modal fade" id="contactusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+				  <div class="modal-dialog" role="document">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="exampleModalLabel">Message us</h4>
+					  </div>
+					  <div class="modal-body">
+						<form>
+						  <div class="form-group">
+							<label for="recipient-name" class="control-label">Your contact mail:</label>
+							<input type="text" class="form-control" id="recipient-name">
+						  </div>
+						  <div class="form-group">
+							<label for="message-text" class="control-label">* Message:</label>
+							<textarea class="form-control" id="message-text"></textarea>
+						  </div>
+						  <p>* Required fields</p>
+						</form>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Send message</button>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				
+				<!-- Shopping Cart Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Shopping Cart</h4>
+					  </div>
+					  <div class="modal-body">
+						<div class="panel panel-default">
+						  <!-- Default panel contents -->
+						  <div class="panel-heading">Shopping list</div>
+
+						  <!-- Table -->
+						  <table class="table">
+								<!-- Shopping list content -->
+								<table class="table"> 
+									<thead> 
+										<tr> 
+											<th>#</th> 
+											<th>Product name</th> 
+											<th>Unit price</th> 
+											<th>Quantity</th>
+											<th>Price</th> 
+										</tr> 
+									</thead> 
+									<tbody> 
+										<tr> 
+											<th scope="row">1</th> 
+											<td>Product 1</td> 
+											<td>€20.00</td> 
+											<td>1</td> 
+											<td>€20.00</td> 
+										</tr> 
+										<tr> 
+											<th scope="row">2</th> 
+											<td>Product 2</td> 
+											<td>€20.00</td> 
+											<td>2</td> 
+											<td>€40.00</td> 
+										</tr> 
+										<tr> 
+											<th scope="row">3</th> 
+											<td>Product 3</td> 
+											<td>€90.00</td> 
+											<td>1</td> 
+											<td>€90.00</td> 
+										</tr> 
+									</tbody> 
+								</table>
+						  </table>
+						</div>
+					  </div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Process to checkout</button>
+						</div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

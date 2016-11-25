@@ -1,0 +1,16 @@
+body{
+	background-color: #a8da93;
+}
+
+.margintop{
+	margin-top: 15px;
+}
+.dividers{
+	padding: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid grey;
+}
+
+.header{
+	padding-bottom: 0;
+}
