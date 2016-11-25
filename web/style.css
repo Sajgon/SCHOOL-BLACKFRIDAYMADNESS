@@ -1,5 +1,5 @@
 body{
-	background-color: #a8da93;
+	background-color: black;
 }
 
 .margintop{
@@ -13,4 +13,9 @@ body{
 
 .header{
 	padding-bottom: 0;
+}
+
+.btn-success, .btn-success:hover{
+	color: white !important;
+	background-color: black !important;
 }
