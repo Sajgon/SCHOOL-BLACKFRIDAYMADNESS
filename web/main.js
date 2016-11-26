@@ -25,20 +25,61 @@ function loadJSON(){
 			img = product.image;
 			price = product.price;
 			productid = product.productid;
+			discount = product.discount;
+			category = product.category;
 			
 			
-			$("#deals").append(
-				'<div class="col-sm-12 col-md-4">' +
-				'<div class="thumbnail">' +
-				'<img src="images/products/'+img+'" alt="product">' +
-				'<div class="caption">' +
-				'<h3>'+header+'</h3>' +
-				'<p>'+description+'</p>' +
-				'<p><a href="#" class="btn btn-primary" role="button">READ MORE</a> <a href="#" class="btn btn-default btn-buy" role="button" data-toggle="modal" data-target="#myModal">BUY NOW</a></p>' +
-				'</div>' +
-				'</div>' +
-				'</div>'
-			)
+			discountpercent = "0." + discount;
+			discountedprice = price * discountpercent;
+			
+			
+			if(category == "bag"){
+				$("#bags").append(
+					'<li><a href="#bag-deals">'+header+'</a></li>'
+				);
+				
+				$("#bag-deals").append(
+					'<div class="col-sm-12 col-md-4">' +
+					'<div class="thumbnail">' +
+					'<p class="discount">'+discount+'% OFF!</p>' +
+					'<img src="images/products/'+img+'" alt="product">' +
+					
+					'<div class="caption">' +
+					'<h3>'+header+'</h3>' +
+					'<h4><span class="line-thru">€'+price+'</span> NOW €'+discountedprice.toFixed(2)+'</h4>' +
+					'<p>'+description+'</p>' +
+					'<p><a href="#" class="btn btn-success btn-buy" role="button" data-toggle="modal" data-target="#myModal">ADD TO CART</a></p>' +
+					'</div>' +
+					'</div>' +
+					'</div>'
+				)
+			}else{
+				$("#chairs").append(
+					'<li><a href="#chair-deals">'+header+'</a></li>'
+				);
+				$("#chair-deals").append(
+					'<div class="col-sm-12 col-md-4">' +
+					'<div class="thumbnail">' +
+					'<p class="discount">'+discount+'% OFF!</p>' +
+					'<img src="images/products/'+img+'" alt="product">' +
+					
+					'<div class="caption">' +
+					'<h3>'+header+'</h3>' +
+					'<h4><span class="line-thru">€'+price+'</span> NOW €'+discountedprice.toFixed(2)+'</h4>' +
+					'<p>'+description+'</p>' +
+					'<p><a href="#" class="btn btn-success btn-buy" role="button" data-toggle="modal" data-target="#myModal">ADD TO CART</a></p>' +
+					'</div>' +
+					'</div>' +
+					'</div>'
+				)
+			}
+			
+			
+			
+			
+			
+			
+			
 			
 			
 		}

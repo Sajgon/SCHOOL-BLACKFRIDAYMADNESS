@@ -1,30 +1,56 @@
-"products": {
+[
 	{
 		"productid": 1,
-		"header": "HD TV",
-		"image": "1.jpg",
-		"price": 199.99,
-		"description": "desc"
+		"header": "RULLSTOL",
+		"image": "stol1.png",
+		"price": 500.00,
+		"discount": 60,
+		"description": "Finfin stol i finaste skick.",
+		"category": "chair"
 	},
 	{
 		"productid": 2,
-		"header": "Kingston HyperX Cloud II",
-		"image": "2.jpg",
-		"price": 59.99,
-		"description": "desc"
-	}
+		"header": "STANDARD STOL",
+		"image": "stol2.png",
+		"price": 20.99,
+		"discount": 60,
+		"description": "Denna stolen är helt ok.",
+		"category": "chair"
+	},
 	{
 		"productid": 3,
-		"header": "Harman Kardon Onyx Studio 3",
-		"image": "3.jpg",
-		"price": 99.99,
-		"description": "desc"
-	}
+		"header": "IKEA STOL",
+		"image": "stol3.png",
+		"price": 9.99,
+		"discount": 60,
+		"description": "IKEA stol direkt från Ingmars hem.",
+		"category": "chair"
+	},
 	{
 		"productid": 4,
-		"header": "Trästol",
-		"image": "4.jpg",
-		"price": 9.99,
-		"description": "desc"
+		"header": "SÄCK MED KRUT",
+		"image": "pase1.png",
+		"price": 2.00,
+		"discount": 70,
+		"description": "Påse full med krut - perfekt present till dina barn.",
+		"category": "bag"
+	},
+	{
+		"productid": 5,
+		"header": "STOLSÄCK",
+		"image": "pase2.png",
+		"price": 3000.99,
+		"discount": 70,
+		"description": "Här kan du sitta bekvämt.",
+		"category": "bag"
+	},
+	{
+		"productid": 6,
+		"header": "PENGAsäck",
+		"image": "pase3.png",
+		"price": 3900.99,
+		"discount": 70,
+		"description": "Påsen kan innehålla spår av låtsaspengar.",
+		"category": "bag"
 	}
-}
+]
